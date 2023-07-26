@@ -1,0 +1,114 @@
+
+
+
+
+.Total_Page {
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.top_header{
+    background-color: rgb(5, 5, 5);
+    color: azure;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+img{
+    height: 2.5rem;
+    width : 2rem;
+}
+
+.locations{
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size:x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.heading{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.first_container , .third_container{
+   
+    text-align: center;
+    
+}
+
+.search_input{
+    height: 3rem;
+    width: 20rem;
+    border-radius: 20rem;
+    text-align: center;
+    font-size: large;
+}
+
+.second_container{
+         
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #000;
+    padding: 2rem;
+    margin-bottom: 20rem;
+
+}
+
+.location{
+    height: 10rem;
+    width: 15rem;
+    background-color: aqua;
+}
+
+.temp,.visibility,.feels_like,.humidity,.weather_part,.country{
+     height: 10rem;
+     width: 13rem;
+     background-color: aquamarine;
+     color: #000;
+    
+     border-radius: 4rem;
+     margin-top: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+h3{
+    margin-top: 0.2rem;
+}
+h2{
+    border-bottom: 0.3rem solid red;
+}
+
+.humidity{
+    background-image: url(https://i.gifer.com/origin/1b/1b53bba21c786501d711b962ae4fd818_w200.gif);
+    background-position: center;
+}
+.weather_part{
+    background-image: url(https://i.pinimg.com/originals/75/16/ea/7516ea5454d6ebb256d2ecb34b66a95c.gif);
+    background-position: center;
+}
+.temp{
+    background-image: url(https://media4.giphy.com/media/pcqWbJB6JRGai8WMyr/giphy.gif);
+    background-position: center;
+}
+.visibility{
+    background-image: url(https://i.pinimg.com/originals/b5/02/82/b502824fdd18a1d90e56266b55696180.gif);
+    background-position: center;
+}
+.feels_like{
+    background-image: url(https://i.gifer.com/Gq7t.gif);
+    background-position: center;
+}
+.country{
+    background-image: url(https://media.tenor.com/Dqm917AdnoAAAAAC/mercator-vs-true-world-map-true-coutry-size.gif);
+    background-position: center;
+}
